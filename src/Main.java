@@ -4,7 +4,7 @@ public class Main {
         int amount = 100;
         int contribution = 1100;
         int percent = 1;
-        int bonys = contribution == contribution ? (contribution / amount) : (contribution - amount);
+        int bonys = contribution > 1000 ? (contribution / amount) : (contribution = 0);
         System.out.println("Количество бонусов составляет :");
         System.out.println(bonys);
 
