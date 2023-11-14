@@ -3,12 +3,11 @@ public class Main {
 
         int amount = 100;
         int contribution = 1100;
-        int percent = 1;
-        int bonys = contribution > 1000 ? (contribution / amount) : (contribution = 0);
-        System.out.println("Количество бонусов составляет :");
+        int bonys = contribution > 1000 ? (contribution / amount) : ( 0 );
+        System.out.println("Сумма бонуса:");
         System.out.println(bonys);
 
         System.out.println("Итоговая сумма на счету клиента составляет :");
-        System.out.println(amount + contribution + bonys);
+        System.out.println(contribution + amount + bonys );
     }
 }
